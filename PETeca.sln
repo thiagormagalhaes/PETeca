@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{D44B1855-8A22-40EB-8058-A1E0F9247165}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{4D72338D-58F4-4E7F-92E3-48F74047CE39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{3A91079D-5C6A-4D7F-ADF1-A5519D0867BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F3329BC1-3560-4AE0-9D9F-1123BC05CCC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PETeca.Tests", "PETeca.Tests\PETeca.Tests.csproj", "{9D7A9E8F-7E51-4501-9E50-394AF29436C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PETeca.Domain", "PETeca.Domain\PETeca.Domain.csproj", "{3BA1A867-D3E3-4394-AE86-C45C8761F824}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PETeca.Infra", "PETeca.Infra\PETeca.Infra.csproj", "{1B1D4FD7-AD91-4B42-97D8-D64880BDD843}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PETeca.Api", "PETeca.Api\PETeca.Api.csproj", "{99652863-7F7A-47C1-BF3C-79099B876584}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D7A9E8F-7E51-4501-9E50-394AF29436C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D7A9E8F-7E51-4501-9E50-394AF29436C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D7A9E8F-7E51-4501-9E50-394AF29436C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D7A9E8F-7E51-4501-9E50-394AF29436C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BA1A867-D3E3-4394-AE86-C45C8761F824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA1A867-D3E3-4394-AE86-C45C8761F824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA1A867-D3E3-4394-AE86-C45C8761F824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA1A867-D3E3-4394-AE86-C45C8761F824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B1D4FD7-AD91-4B42-97D8-D64880BDD843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B1D4FD7-AD91-4B42-97D8-D64880BDD843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B1D4FD7-AD91-4B42-97D8-D64880BDD843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B1D4FD7-AD91-4B42-97D8-D64880BDD843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99652863-7F7A-47C1-BF3C-79099B876584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99652863-7F7A-47C1-BF3C-79099B876584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99652863-7F7A-47C1-BF3C-79099B876584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99652863-7F7A-47C1-BF3C-79099B876584}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D7A9E8F-7E51-4501-9E50-394AF29436C0} = {F3329BC1-3560-4AE0-9D9F-1123BC05CCC4}
+		{3BA1A867-D3E3-4394-AE86-C45C8761F824} = {4D72338D-58F4-4E7F-92E3-48F74047CE39}
+		{1B1D4FD7-AD91-4B42-97D8-D64880BDD843} = {3A91079D-5C6A-4D7F-ADF1-A5519D0867BD}
+		{99652863-7F7A-47C1-BF3C-79099B876584} = {D44B1855-8A22-40EB-8058-A1E0F9247165}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77A224A9-CA48-4FCF-9AB8-278BD200BAA3}
+	EndGlobalSection
+EndGlobal
