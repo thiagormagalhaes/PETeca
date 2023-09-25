@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=DESKTOP-5V9OK9U\\MSSQLSERVER01;Initial Catalog=PETeca;User Id=sa;Password=sa;TrustServerCertificate=True"
+  }
+}
